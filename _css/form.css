@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+form {
+    width: 550px;
+    margin: auto;
+    position: absolute;
+    padding-left: 0px;
+    float: left;
+}
+
+input, textarea {
+    font-family: 'Fonte p';
+    font-weight: normal;
+    font-size: 9pt;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    margin-top: 40px;
+}
+
+input:hover, textarea:hover {
+    background-color: #e3effa;
+}
+
+legend {
+    color: #888888;
+    font-size: 9pt;
+    font-family: 'Fonte p';
+}
+
+fieldset#usuario {
+    border-color: #fbfbfb;
+    margin-top: 20px; 
+    border-style: 1px;
+}
+
+/*
+label#nome {
+    font-family: 'Fonte p';
+    font-size: 11px;
+    padding-top: 52px;
+    padding-left: 25px;
+    padding-right: 0px;
+    margin-left: 15px;
+    float: left;
+}
+*/
+
+input#cNome {
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+/*
+label#email {
+    font-family: 'Fonte p';
+    font-size: 11px;
+    padding-top: 0px;
+    padding-left: 25px;
+    margin-left: 15px;
+    float: left;
+} 
+*/
+
+input#cEmail {
+    margin-top: 2px;
+    margin-right: 120px;
+    margin-left: 40px;
+}
+
+/*
+label#senha {
+    font-family: 'Fonte p';
+    font-size: 11px;
+    padding-right: 0px;
+    margin-left: 15px;
+    float: right;
+}
+*/
+
+input#cSenha {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    float: right;
+}
+
+input#radio {
+    font-family: 'Fonte p';
+    font-size: 9pt;
+}
